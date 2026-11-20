@@ -6,7 +6,7 @@ A discrete-event simulation and Monte Carlo decision-support engine built for **
 
 ## 🌍 Scenario & Network Mechanics
 
-The simulation models a 5-region supply chain over a 730-day live horizon ($t \in [730, 1460)$):
+The simulation models a 5-region supply chain over a 730-day live horizon:
 * **Mainland Regions:** Calopeia (initial factory & warehouse), Sorange, Tyran, and Entworpe.
 * **Offshore Region:** Fardo, subject to higher freight rates and doubled transit lead times (14 days by truck vs. 7 days mainland; 2 days by mail vs. 1 day mainland).
 * **Capital & Lead-Time Constraints:** Opening a new factory requires $500,000 CAPEX, capacity upgrades cost $50,000 per drum/day with a **90-day construction lag**, and new regional warehouses cost $100,000 with a **60-day build lag**.
